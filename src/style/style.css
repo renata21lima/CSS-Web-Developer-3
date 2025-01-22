@@ -1,0 +1,102 @@
+/* Nav */
+nav{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+
+    display: inline-grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu e Logo */
+.menu-logo{
+    width: 146px;
+    height: 24px;
+    margin:16px 0 16px 24px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt="logo"]{
+    width: 90px;
+    height: 20px;
+    margin-left: 32px;
+}
+
+/* Barra de Pesquisa */
+.barra-pesquisa{
+    width: 404px;
+    height: 40px;
+    margin: 8px 0 8px 0;
+}
+
+/* Nav */
+
+/* Imagens */
+img{
+    cursor: pointer;
+}
+
+img[alt="menu"],
+img[alt="pesquisar"],
+img[alt="camera"],
+img[alt="inicio"],
+img[alt="explorar"],
+img[alt="inscricoes"],
+img[alt="video-gostei"],
+img[alt="assitir"],
+img[alt="downloads"],
+img[alt="filme"],
+img[alt="aprender"],
+img[alt="esportes"] {
+    width: 24px;
+    height: 24px;
+}
+/* Imagens */
+
+img[alt="imagem-perfil"]{
+    width: 34px;
+    height: 34px;
+}
+
+img[alt="Video Ciência de dados Unimed - BH"],
+img[alt="Video Scrum Talks"],
+img[alt="Video Machine Learning Avançado - Fast Track"],
+img[alt="Video Global Skills #2 - Project Planning"],
+img[alt="Video Como aprender a programar Python do ZERO"]{
+    width: 250px;
+    height: 140.29px;
+}
+
+
+/* main */
+main{
+    display: grid;
+    grid-template-columns: 218px 3fr;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.content{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 13.71px; 
+    column-gap: 14px; 
+}
+
+.video{
+    margin: 24px 28px;
+}
+
+.sidebar{
+    background-color: #FFFFFF;
+}
