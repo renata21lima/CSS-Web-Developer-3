@@ -8,18 +8,19 @@ nav{
     background-color: #FFFFFF;
     width: 100%;
     height: 56px;
-
-    display: inline-grid;
+    display: grid;
+    justify-content: space-between;
     grid-template-columns: 1fr 3fr 1fr;
     justify-items: center;
-    justify-content: space-between;
     align-items: center;
 }
 
 /* Menu e Logo */
 .menu-logo{
-    display: inline-grid;
+    justify-self: start;
+    display: grid;
     grid-template-columns: 0.5fr 0.5fr;
+    margin-left: 24px;
 }
 
 img[alt="logo"]{
@@ -79,7 +80,7 @@ main{
     display: grid;
     grid-template-columns: 218px 3fr;
     width: 100%;
-    height: 100vh;
+    height: auto;
 
 }
 
