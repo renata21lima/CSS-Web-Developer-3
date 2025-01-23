@@ -2,7 +2,6 @@ body{
     font-family: "roboto";
 }
 
-
 /* Nav */
 nav{
     background-color: #FFFFFF;
@@ -34,7 +33,10 @@ img[alt="logo"]{
     width: 404px;
     height: 40px;
     margin: 8px 0 8px 0;
+    align-self: center;
+    justify-items: center;
 }
+
 
 /* Nav */
 
