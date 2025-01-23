@@ -1,5 +1,5 @@
 body{
-    
+    font-family: "roboto";
 }
 
 
@@ -98,5 +98,4 @@ main{
 
 .sidebar{
     background-color: #FFFFFF;
-    margin: 24px 24px 22px 119px;
 }
