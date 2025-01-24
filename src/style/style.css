@@ -35,6 +35,8 @@ img[alt="logo"]{
     margin: 8px 0 8px 0;
     align-self: center;
     justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 input[type="text"]{
@@ -42,6 +44,15 @@ input[type="text"]{
     height: 40px;
     border: #cccc solid 1px;
 }
+
+button[type="submit"]{
+    background-color: #f8f8f8;
+    width: 57px;
+    height: 40px;
+    border: #cccc solid 1px;
+}
+
+/* Perfil */
 
 
 /* Nav */
