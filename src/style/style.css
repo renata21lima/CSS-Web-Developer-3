@@ -62,7 +62,6 @@ button[type="submit"]{
     justify-self: end;
     gap: 24px;
 }
-
 /* Nav */
 
 /* Imagens */
@@ -85,12 +84,12 @@ img[alt="esportes"] {
     width: 24px;
     height: 24px;
 }
-/* Imagens */
 
 img[alt="imagem-perfil"]{
     width: 34px;
     height: 34px;
 }
+
 
 img[alt="Video Ciência de dados Unimed - BH"],
 img[alt="Video Scrum Talks"],
@@ -101,6 +100,7 @@ img[alt="Video Como aprender a programar Python do ZERO"]{
     height: 140.29px;
 }
 
+/* Imagens */
 
 /* main */
 main{
@@ -111,6 +111,7 @@ main{
 
 }
 
+/* videos */
 .content{
     background-color: #f9f9f9;
     display: grid;
@@ -124,6 +125,28 @@ main{
     margin: 24px 28px;
 }
 
+.titulo{
+
+}
+
+/* sidebar */
 .sidebar{
+    margin: 24px;
+    width: 218px;
     background-color: #FFFFFF;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(9, 22px);
+    gap: 16px;
+}
+
+.menu-items{
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 24px 200px;
+    align-items: center;
+    justify-self: start;
+    width: 175px;
+    height: 24px;
+    gap: 16px;
 }
