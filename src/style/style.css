@@ -19,7 +19,7 @@ nav{
     justify-self: start;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    margin-left: 24px;
+    margin: 16px 0 16px 24px ;
 }
 
 img[alt="logo"]{
@@ -53,7 +53,15 @@ button[type="submit"]{
 }
 
 /* Perfil */
-
+.perfil{
+    margin: 11px 24px 11px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-self: end;
+    gap: 24px;
+}
 
 /* Nav */
 
