@@ -37,6 +37,12 @@ img[alt="logo"]{
     justify-items: center;
 }
 
+input[type="text"]{
+    width: 348px;
+    height: 40px;
+    border: #cccc solid 1px;
+}
+
 
 /* Nav */
 
