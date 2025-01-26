@@ -133,11 +133,9 @@ main{
     border-radius: 4px;
 }
 
-
-
 .titulo {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 55px auto;
     gap: 8px;
     align-items: start;
     justify-items: start;
@@ -145,6 +143,9 @@ main{
     height: 74px;
 }
 
+.texto-info{
+    grid-column: 2 / span 2;
+}
 
 /* sidebar */
 .sidebar{
